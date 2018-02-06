@@ -29,6 +29,9 @@ export default class App extends React.Component{
       this.cacheData["#"+d.hash] = i
     }
   }
+  onBackPress(e){
+    history.back(-1)
+  }
   render(){
     let content = null
     let title = null
@@ -45,9 +48,12 @@ export default class App extends React.Component{
         content = <ProjectPage project={data.projects[this.cacheData[this.state.location]]} hash={this.state.location} />
         title = data.projects[this.cacheData[this.state.location]].name
       }
+      let navigation = <Navigation title={title} name={data.name} icon={data.pic} hash={this.state.location} data={data}/>
+      if( title != "Portfolio")
+      navigation =  <Navigation title={title} name={data.name} icon={data.pic} hash={this.state.location} data={data} back={true} backButton={this.onBackPress}/>
     return (
       <div>
-        <Navigation title={title} name={data.name} icon={data.pic} hash={this.state.location} data={data}/>
+        {navigation}
         <section id="page-start">
         {content}
         </section>

@@ -49,7 +49,7 @@ export default class App extends React.Component{
         title = data.projects[this.cacheData[this.state.location]].name
       }
       let navigation = <Navigation title={title} name={data.name} icon={data.pic} hash={this.state.location} data={data}/>
-      if( title != "Portfolio")
+      if( this.state.location != "#/")
       navigation =  <Navigation title={title} name={data.name} icon={data.pic} hash={this.state.location} data={data} back={true} backButton={this.onBackPress}/>
     return (
       <div>

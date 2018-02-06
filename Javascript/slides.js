@@ -2,6 +2,7 @@ import React from 'react'
 
 // react class for a generic slides
 export default class Slides extends React.Component{
+  // A react Component used for slide showing of images
   constructor(props){
       super(props)
       this.state = {active:0,dialog:false};

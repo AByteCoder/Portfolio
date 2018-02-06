@@ -4,6 +4,8 @@ import ProjectThumbnail from './project_thumbnail'
 import ProjectPage from './project_page'
 import AboutMe from './aboutme'
 export default class App extends React.Component{
+  // the Main component which handles all the interactions
+  // and how the components are loaded
   constructor(props){
     super(props)
     this.cacheData = {}

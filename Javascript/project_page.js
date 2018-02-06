@@ -1,6 +1,7 @@
 import React from 'react'
 import Slides from './slides'
 export default class ProjectPage extends React.Component{
+  //React component Which displays all the projects
   constructor(props){
     super(props)
   }

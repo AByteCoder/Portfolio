@@ -1,5 +1,6 @@
 import React from 'react'
 export default class AboutMe extends React.Component{
+  // the React component used for About Page
   constructor(props){
     super(props)
   }

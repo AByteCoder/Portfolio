@@ -1,6 +1,7 @@
 import React from 'react'
 
 export default class ProjectThumbnail extends React.Component{
+  // the react component contains a single project
   constructor(props){
     super(props)
     this.onProjectClick = this.onProjectClick.bind(this)

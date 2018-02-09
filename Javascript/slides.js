@@ -47,7 +47,6 @@ export default class Slides extends React.Component{
   }
   render(){
     let content = null;
-    console.log(this.props.data)
     if(this.state.dialog){
       content = (
         <div className="dialog">

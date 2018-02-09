@@ -51,7 +51,7 @@ export default class Slides extends React.Component{
       content = (
         <div className="dialog">
         <span className="close" onClick={this.onCloseClick}> CLOSE </span>
-        <img src={this.props.data[this.state.active]} />
+        <img src = {this.props.data.mobile[this.state.active]} srcset={this.props.data.desktop[this.state.active]+" 720w,"+this.props.data.tablet[this.state.active]+" 480w,"+this.props.data.mobile[this.state.active]+" 360w"} sizes="(min-width:588px) 720px,(min-width:415px) 480px,360px" />
         </div>
       )
     }else{

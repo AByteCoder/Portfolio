@@ -39,16 +39,36 @@
       "type":"Android and Web app",
       "role":"Full stack and Android developer",
       "hash":"/apti",
-      "screenshots":[
-        "assets/aptitude_engine/ae1.png",
-        "assets/aptitude_engine/ae2.png",
-        "assets/aptitude_engine/ae3.png",
-        "assets/aptitude_engine/ae4.png",
-        "assets/aptitude_engine/ae5.png",
-        "assets/aptitude_engine/ae6.png",
-        "assets/aptitude_engine/ae7.png",
-        "assets/aptitude_engine/ae8.png"
-      ]
+      "screenshots":{
+        "desktop":[
+        "assets/aptitude_engine/desktop/ae1_hdi.jpg",
+        "assets/aptitude_engine/desktop/ae2_hdi.jpg",
+        "assets/aptitude_engine/desktop/ae3_hdi.jpg",
+        "assets/aptitude_engine/desktop/ae4_hdi.jpg",
+        "assets/aptitude_engine/desktop/ae5_hdi.jpg",
+        "assets/aptitude_engine/desktop/ae6_hdi.jpg",
+        "assets/aptitude_engine/desktop/ae7_hdi.jpg",
+        "assets/aptitude_engine/desktop/ae8_hdi.jpg"
+      ],"tablet":[
+      "assets/aptitude_engine/tablet/ae1_mid.jpg",
+      "assets/aptitude_engine/tablet/ae2_mid.jpg",
+      "assets/aptitude_engine/tablet/ae3_mid.jpg",
+      "assets/aptitude_engine/tablet/ae4_mid.jpg",
+      "assets/aptitude_engine/tablet/ae5_mid.jpg",
+      "assets/aptitude_engine/tablet/ae6_mid.jpg",
+      "assets/aptitude_engine/tablet/ae7_mid.jpg",
+      "assets/aptitude_engine/tablet/ae8_mid.jpg"
+    ],"mobile":[
+    "assets/aptitude_engine/mobile/ae1_low.jpg",
+    "assets/aptitude_engine/mobile/ae2_low.jpg",
+    "assets/aptitude_engine/mobile/ae3_low.jpg",
+    "assets/aptitude_engine/mobile/ae4_low.jpg",
+    "assets/aptitude_engine/mobile/ae5_low.jpg",
+    "assets/aptitude_engine/mobile/ae6_low.jpg",
+    "assets/aptitude_engine/mobile/ae7_low.jpg",
+    "assets/aptitude_engine/mobile/ae8_low.jpg"
+  ]
+        }
     },{
       "name":"NewzHunt",
       "icon":"assets/newzhunt.png",
@@ -57,16 +77,36 @@
       "type":"Android app",
       "role":"Android developer",
       "hash":"/newzhunt",
-      "screenshots":[
-        "assets/newzhunt/news1.jpg",
-        "assets/newzhunt/news2.jpg",
-        "assets/newzhunt/news3.jpg",
-        "assets/newzhunt/news4.jpg",
-        "assets/newzhunt/news5.jpg",
-        "assets/newzhunt/news6.jpg",
-        "assets/newzhunt/news7.jpg",
-        "assets/newzhunt/news8.jpg"
-      ]
+      "screenshots":{
+            "desktop":[
+            "assets/newzhunt/desktop/news1_hdi.jpg",
+            "assets/newzhunt/desktop/news2_hdi.jpg",
+            "assets/newzhunt/desktop/news3_hdi.jpg",
+            "assets/newzhunt/desktop/news4_hdi.jpg",
+            "assets/newzhunt/desktop/news5_hdi.jpg",
+            "assets/newzhunt/desktop/news6_hdi.jpg",
+            "assets/newzhunt/desktop/news7_hdi.jpg",
+            "assets/newzhunt/desktop/news8_hdi.jpg"
+          ],"tablet":[
+            "assets/newzhunt/tablet/news1_mid.jpg",
+            "assets/newzhunt/tablet/news2_mid.jpg",
+            "assets/newzhunt/tablet/news3_mid.jpg",
+            "assets/newzhunt/tablet/news4_mid.jpg",
+            "assets/newzhunt/tablet/news5_mid.jpg",
+            "assets/newzhunt/tablet/news6_mid.jpg",
+            "assets/newzhunt/tablet/news7_mid.jpg",
+            "assets/newzhunt/tablet/news8_mid.jpg"
+          ],"mobile":[
+            "assets/newzhunt/mobile/news1_low.jpg",
+            "assets/newzhunt/mobile/news2_low.jpg",
+            "assets/newzhunt/mobile/news3_low.jpg",
+            "assets/newzhunt/mobile/news4_low.jpg",
+            "assets/newzhunt/mobile/news5_low.jpg",
+            "assets/newzhunt/mobile/news6_low.jpg",
+            "assets/newzhunt/mobile/news7_low.jpg",
+            "assets/newzhunt/mobile/news8_low.jpg"
+          ]
+        }
     },{
       "name":"Portfolio",
       "icon":"assets/icon.png",
@@ -76,13 +116,27 @@
       "role":"Web developer",
       "hash":"/Portfolio",
       "github":"https://github.com/AByteCoder/Portfolio",
-      "screenshots":[
-        "assets/portfolio/port1.png",
-        "assets/portfolio/port2.png",
-        "assets/portfolio/port3.png",
-        "assets/portfolio/port4.png",
-        "assets/portfolio/port5.png"
-      ]
+      "screenshots":{
+              "desktop":[
+              "assets/portfolio/desktop/port1_hdi.jpg",
+              "assets/portfolio/desktop/port2_hdi.jpg",
+              "assets/portfolio/desktop/port3_hdi.jpg",
+              "assets/portfolio/desktop/port4_hdi.jpg",
+              "assets/portfolio/desktop/port5_hdi.jpg"
+              ],"tablet":[
+              "assets/portfolio/tablet/port1_mid.jpg",
+              "assets/portfolio/tablet/port2_mid.jpg",
+              "assets/portfolio/tablet/port3_mid.jpg",
+              "assets/portfolio/tablet/port4_mid.jpg",
+              "assets/portfolio/tablet/port5_mid.jpg"
+            ],"mobile":[
+            "assets/portfolio/mobile/port1_low.jpg",
+            "assets/portfolio/mobile/port2_low.jpg",
+            "assets/portfolio/mobile/port3_low.jpg",
+            "assets/portfolio/mobile/port4_low.jpg",
+            "assets/portfolio/mobile/port5_low.jpg"
+          ]
+        }
     },{
       "name":"Favourite Movies",
       "icon":"assets/favmovies.png",
@@ -92,11 +146,21 @@
       "role":"Web developer",
       "hash":"/Fav",
       "github":"https://github.com/AByteCoder/python-udacity/tree/master/mini_project4",
-      "screenshots":[
-        "assets/FavMovies/movies1.jpg",
-        "assets/FavMovies/movies2.jpg",
-        "assets/FavMovies/movies3.jpg"
-      ]
+      "screenshots":{
+            "desktop":[
+            "assets/FavMovies/desktop/movies1_hdi.jpg",
+            "assets/FavMovies/desktop/movies2_hdi.jpg",
+            "assets/FavMovies/desktop/movies3_hdi.jpg"
+          ],"tablet":[
+          "assets/FavMovies/tablet/movies1_mid.jpg",
+          "assets/FavMovies/tablet/movies2_mid.jpg",
+          "assets/FavMovies/tablet/movies3_mid.jpg"
+          ],"mobile":[
+          "assets/FavMovies/mobile/movies1_low.jpg",
+          "assets/FavMovies/mobile/movies2_low.jpg",
+          "assets/FavMovies/mobile/movies3_low.jpg"
+        ]
+        }
     },{
       "name":"GST App",
       "icon":"assets/csp.png",
@@ -105,16 +169,36 @@
       "type":"Web app",
       "role":"Web developer",
       "hash":"/GST",
-      "screenshots":[
-        "assets/gst/gst1.png",
-        "assets/gst/gst2.png",
-        "assets/gst/gst3.png",
-        "assets/gst/gst4.png",
-        "assets/gst/gst5.png",
-        "assets/gst/gst6.png",
-        "assets/gst/gst7.png",
-        "assets/gst/gst8.png"
+      "screenshots":{
+        "desktop":[
+        "assets/gst/desktop/gst1_hdi.jpg",
+        "assets/gst/desktop/gst2_hdi.jpg",
+        "assets/gst/desktop/gst3_hdi.jpg",
+        "assets/gst/desktop/gst4_hdi.jpg",
+        "assets/gst/desktop/gst5_hdi.jpg",
+        "assets/gst/desktop/gst6_hdi.jpg",
+        "assets/gst/desktop/gst7_hdi.jpg",
+        "assets/gst/desktop/gst8_hdi.jpg"
+        ],"tablet":[
+        "assets/gst/tablet/gst1_mid.jpg",
+        "assets/gst/tablet/gst2_mid.jpg",
+        "assets/gst/tablet/gst3_mid.jpg",
+        "assets/gst/tablet/gst4_mid.jpg",
+        "assets/gst/tablet/gst5_mid.jpg",
+        "assets/gst/tablet/gst6_mid.jpg",
+        "assets/gst/tablet/gst7_mid.jpg",
+        "assets/gst/tablet/gst8_mid.jpg"
+        ],"mobile":[
+        "assets/gst/mobile/gst1_low.jpg",
+        "assets/gst/mobile/gst2_low.jpg",
+        "assets/gst/mobile/gst3_low.jpg",
+        "assets/gst/mobile/gst4_low.jpg",
+        "assets/gst/mobile/gst5_low.jpg",
+        "assets/gst/mobile/gst6_low.jpg",
+        "assets/gst/mobile/gst7_low.jpg",
+        "assets/gst/mobile/gst8_low.jpg"
       ]
+        }
     }
   ]
 }

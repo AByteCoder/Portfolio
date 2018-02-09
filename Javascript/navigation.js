@@ -17,7 +17,7 @@ export default class Navigation extends React.Component{
       return <li key={project.hash} className={"nav-item" + (this.props.hash === "#"+project.hash ?" active":" ")}><a href={"#"+project.hash}>{project.name}</a></li>
     })
     return (
-    <div className="navigation">
+    <header className="navigation">
     <div className="nav-container">
       {button}
       <span className="nav-title">{this.props.title}</span>
@@ -32,7 +32,7 @@ export default class Navigation extends React.Component{
     {navData}
     </ul>
     </nav>
-    </div>
+    </header>
   )
   }
 }
